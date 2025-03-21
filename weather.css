@@ -38,6 +38,7 @@ button {
     border: none;
     background: #ffcc00;
     color: black;
+    margin: 10px;
     font-weight: bold;
     cursor: pointer;
     border-radius: 8px;

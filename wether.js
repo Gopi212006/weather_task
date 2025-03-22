@@ -16,7 +16,7 @@ function showWeather(city) {
     let icon = `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
     console.log(icon);
     maincontainer.innerHTML = `
-             <div id="icon">  <img src="${icon}" alt=""></div>
+             <div id="icon">  <img src="${icon}" id="icon"></div>
             <div id="temp">${data.main.temp}°C</div>
             <div id="location">${data.name}</div>
             <div id="details">

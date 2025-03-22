@@ -13,9 +13,8 @@ body {
     align-items: center;
 }
 
-
 #weather-card {
-    background-color: rgba(101, 99, 167, 0.2); 
+    background-color: rgba(248, 174, 174, 0.2); 
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);

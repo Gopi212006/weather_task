@@ -71,3 +71,57 @@ button:hover {
     flex-direction: column;
     gap: 8px;
 }
+
+@media (max-width: 480px) {
+    body {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #weather-card {
+        width: 90%;
+        padding: 15px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    #temp {
+        font-size: 2.5rem;
+    }
+
+    #location {
+        font-size: 1.3rem;
+    }
+
+    #details {
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    #weather-card {
+        width: 80%;
+    }
+
+    #temp {
+        font-size: 2.8rem;
+    }
+
+    #location {
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    #weather-card {
+        width: 350px;
+    }
+}
+

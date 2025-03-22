@@ -104,7 +104,6 @@ button:hover {
     }
 }
 
-
 @media (max-width: 768px) {
     #weather-card {
         width: 80%;
@@ -124,4 +123,3 @@ button:hover {
         width: 350px;
     }
 }
-
